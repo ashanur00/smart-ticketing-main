@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Ticketing</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body class="">
+  <header class="lg:m-32">
+    <div class="mb-8">
+      <div class="navbar bg-white text-black">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li>
+                <a>About</a>
+                <ul class="p-2">
+                  <li><a>Destination</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">P-Ticket</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li>
+              <details>
+                <summary>About</summary>
+                <ul class="p-2">
+                  <li><a>Destination</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn text-[#1DD100] bg-[#1DD1001A]">Bus<img src="images/bus-icon.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="mt-8">
+      <div class="hero min-h-screen rounded-3xl gap-4" style="background-image:url(images/banner.png)">
+        <div class="hero-overlay rounded-xl bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold font-raleway">End-to-End Travel with <br> <span class="text-[#1DD100]">P
+                Paribahan</span></h1>
+            <p class="mb-5">Welcome To GreenLine. Green Line Paribahan is apparently a family owned transport company
+              specializing in transportation of passenger bus services since 1990.</p>
+            <button class="btn text-black text-xl bg-[#1DD100]">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+
+      <div class="text-center mt-28">
+        <h1 class="font-bold font-raleway text-4xl">Best offers for you</h1>
+      </div>
+      <div class=" lg:flex lg:flex-row">
+        <div class="mt-12 mr-6">
+          <div class="card lg:w-[570px] md:w-[290px] bg-[#FFBF0F]">
+            <div class="card-body py-12 px-12 flex flex-row justify-between">
+              <div>
+                <h2 class="card-title text-[#030712CC] font-inter text-3xl font-extrabold">15% OFF</h2>
+                <p class="text-[#030712CC]">on your next purchase</p>
+                <p class="text-[#03071280]">use by January 2024</p>
+              </div>
+              <div class="">
+                <h1 class="text-3xl font-raleway font-bold text-[#030712CC]">NEW15</h1>
+                <p class="text-[#03071280]">Coupon Code</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-12 text-center">
+          <div class="card lg:w-[570px] md:w-[290px] bg-[#F78C9C]">
+            <div class="card-body py-12 px-12 flex flex-row justify-between">
+              <div>
+                <h2 class="card-title text-[#030712CC] font-inter text-3xl font-extrabold">20% OFF</h2>
+                <p class="text-[#030712CC]">on your next purchase</p>
+                <p class="text-[#03071280]">use by January 2024</p>
+              </div>
+              <div class="">
+                <h1 class="text-3xl font-raleway font-bold text-[#030712CC]">Couple 20</h1>
+                <p class="text-[#03071280]">Coupon Code</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-16 text-center">
+        <button class="btn btn-outline btn-success">See All Offers</button>
+      </div>
+    </div>
+  </header>
+  <main class="border-t-2 border-[#1DD100] bg-[#F7F8F8] rounded-t-3xl pt-24">
+    <div class="m-32">
+      <div class="">
+        <div class=" text-center">
+          <h3 class="font-raleway font-bold text-3xl">Green Line Paribahan</h3>
+          <p class="font-inter text-sm text-[#03071299]">Green Line Paribahan is apparently a family owned transport
+            <br>company specializing
+            in transportation of passenger bus services since 1990. From a humble beginning of local services, our
+            transport <br>
+            system encompasses all reachable areas of Bangladesh and also beyond the border, extending our reach to
+            Kolkata in India.
+          </p>
+        </div>
+      </div>
+      <div class="">
+        <div class="bg-white w-[1170px] flex flex-row mt-12 rounded-2xl">
+          <div>
+            <div class="py-8 px-8 flex flex-row">
+              <img class="mr-2" src="images/bus-logo.png" alt="">
+              <div class="">
+                <h4 class="font-raleway font-bold text-3xl">Greenline Paribahan</h4>
+                <p class="font-inter text-sm text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+              </div>
+              <div class="ml-60">
+                <a class="btn text-[#1DD100] bg-[#1DD1001A]"><img src="images/seat-green.png" alt=""><span>8</span>
+                  Seats left</a>
+              </div>
+            </div>
+            <div class="bg-[#F7F8F8]  py-8 px-8 rounded-2xl ml-8">
+             <div class="flex flex-row mb-6">
+              <p class="font-raleway font-semibold text-xl text-[#03071280] mr-auto">Route</p>
+              <p class="font-raleway font-semibold text-xl text-black">Dhaka - Sylhet</p>
+              <hr>
+             </div>
+             <hr>
+             <div class="flex flex-row mt-6 mb-6">
+              <p class="font-raleway font-semibold text-xl text-[#03071280] mr-auto">Departure Time</p>
+              <p class="font-raleway font-semibold text-xl text-black">9:00 PM</p>
+             </div>
+             <hr>
+             <div>
+
+             </div>
+             
+            </div>
+            
+            <div></div>
+          </div>
+
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
